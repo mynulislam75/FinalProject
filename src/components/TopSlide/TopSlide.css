@@ -1,35 +1,37 @@
 
-
 .banner {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  .banners {
-    background-image: url("https://image.freepik.com/free-photo/black-glitch-effect-digital-noise-texture-background_53876-103977.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    top: 100%;
-    height: 100vh;
-    width: 100%;
-  }
-  .banner-title {
-    color: #d8d4d4;
-    font-weight: 1000;
-    font-size: 35px;
-  }
-  .sub-title {
-    color: rgb(224, 217, 217);
-    font-size: 20px;
-    margin-top: 10px;
-  }
-  .banner-btn {
-    background-color: rgb(218, 207, 207);
-    color: black;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-top: 20px;
-  }
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banners {
+  background-image: url("https://media.istockphoto.com/photos/car-ride-on-road-with-copy-space-motion-blur-picture-id996990918?b=1&k=20&m=996990918&s=170667a&w=0&h=EwAHlZJ7f4-MMTIg7vWSFLPNeVfVr9rJKO4sAFx4ls4=");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 100%;
+  height: 100vh;
+  width: 100%;
+}
+.banner-title {
+  color:black;
+  font-weight: 1000;
+  font-size: 35px;
+}
+.sub-title {
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.banner-btn {
+  background-color: rgb(218, 207, 207);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+.img-div{
+  opacity: 20;
+}

@@ -33,7 +33,7 @@ const Explore = () => {
                                 <p>{singleService.description}</p>
                                 <Link to={`/shippping/${singleService._id}`}>
 
-                                    <button className="regular-btn">Buy Tickit</button>
+                                    <button className="regular-btn bg-success">Buy Tickit</button>
                                 </Link>
                             </div>
 
