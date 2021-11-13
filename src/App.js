@@ -9,6 +9,8 @@ import Home from './components/Home/Home';
 import Purchase from './components/Purchase/Purchase';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Explore from './components/Explore/Explore';
+import Notfound from './components/NotFound/Notfound';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -35,8 +37,15 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
+            <Route path="/*">
+              <Notfound></Notfound>
+            </Route>
+            {/* <Route path="/footer">
+              <Footer></Footer>
+            </Route> */}
           </Switch>
         </BrowserRouter>
+        <Footer></Footer>
       </AuthProvider>
     </div>
   );

@@ -26,9 +26,9 @@ const Dashboard = () => {
 
     console.log(admin)
     return (
-        <div>
+        <div className="h-100">
 
-            <div className="row">
+            <div className="row h-100">
 
                 <div className="col-lg-3">
                     <div className="dashboard">
