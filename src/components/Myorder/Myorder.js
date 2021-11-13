@@ -50,7 +50,7 @@ const Myorder = () => {
                                 } alt="" />
                                 <h3>Service name: <br /> {oneService?.name}</h3>
                                 <p>{oneService?.description}</p>
-                                <button className="cancel-btn" onClick={() => handleDelete(oneService?._id)}>CANCEL</button>
+                                <button className="cancel-btn bg-success" onClick={() => handleDelete(oneService?._id)}>CANCEL</button>
                             </div>
 
                         </div>

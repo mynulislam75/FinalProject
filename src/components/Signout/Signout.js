@@ -4,7 +4,6 @@ import useAuth from '../../Hooks/useAuth';
 
 const Signout = () => {
     const { handleSignOut } = useAuth();
-
     return (
         <div className="text-center">
             <h4>Wants to logout?</h4>

@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="navbar-container">
             <div className="row container items-container">
                 <div className="col-lg-4 col-sm-12">
-                    <h5>CARS-INFO'S</h5>
+                    <h5>CARS-HOUSE</h5>
                 </div>
                 <div className="col-lg-8 col-sm-12">
                     <div className="d-flex justify-content-end">

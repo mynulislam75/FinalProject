@@ -28,7 +28,8 @@ const Login = () => {
                         <input onChange={handleToggle} class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                         <label class="form-check-label" for="flexCheckDefault">
                             Create new account?
-                        </label>
+                        </label> <br />
+                        <small>If you don't have registered,please first toggle and register by email an password</small>
                     </div>
                 </div>
             </form>
