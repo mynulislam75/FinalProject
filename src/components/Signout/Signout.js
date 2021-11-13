@@ -8,7 +8,7 @@ const Signout = () => {
     return (
         <div className="text-center">
             <h4>Wants to logout?</h4>
-            <button onClick={handleSignOut}>Logout</button>
+            <button className="bg-danger" onClick={handleSignOut}>Logout</button>
         </div>
     );
 };

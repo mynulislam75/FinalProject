@@ -15,18 +15,18 @@
   width: 100%;
 }
 .banner-title {
-  color:black;
+  color:white;
   font-weight: 1000;
   font-size: 35px;
 }
 .sub-title {
-  color: black;
+  color:white;
   font-size: 20px;
   margin-top: 10px;
 }
 .banner-btn {
   background-color: rgb(218, 207, 207);
-  color: black;
+  color: green;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
