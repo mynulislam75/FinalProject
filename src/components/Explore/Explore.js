@@ -17,7 +17,7 @@ const Explore = () => {
 
             <div className="text-center">
                 <h2 className="">Our services</h2>
-                <small>Confirm your tickit from our available services right now!</small>
+                <small>Drive safely!First life then drive!</small>
             </div>
 
             <div className="row container mt-3">
@@ -33,7 +33,7 @@ const Explore = () => {
                                 <p>{singleService.description}</p>
                                 <Link to={`/shippping/${singleService._id}`}>
 
-                                    <button className="regular-btn bg-success">Buy Tickit</button>
+                                    <button className="regular-btn bg-success">Purchase</button>
                                 </Link>
                             </div>
 

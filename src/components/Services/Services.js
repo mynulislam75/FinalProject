@@ -36,7 +36,7 @@ const Services = () => {
                                     <p>{singleService.description}</p>
                                     <Link to={`/shippping/${singleService._id}`}>
 
-                                        <button className="regular-btn btn-danger">Buy Tickit</button>
+                                        <button className="regular-btn btn-danger">Purchase</button>
                                     </Link>
                                 </div>
                             </div>
