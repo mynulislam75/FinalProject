@@ -1,0 +1,16 @@
+
+.navbar-container{
+    background-color: aquamarine;
+    padding: 7px;
+    margin-top: 30px;
+   
+}
+.items-container{
+    align-items: center;
+    justify-content: center;
+}
+.items{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

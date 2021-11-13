@@ -1,0 +1,17 @@
+.service-container{
+    background-color: rgb(200, 227, 228);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.service-container{
+ background-color: white;
+}
+
+.main-img{
+   border-radius: 70%;
+}
+.regular-btn{
+    border-radius: 8px;
+}

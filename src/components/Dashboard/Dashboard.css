@@ -1,0 +1,9 @@
+.dashboard{
+    position: fixed;
+    height: 250px;
+    padding: 25px;
+    border-radius: 5px;
+}
+.li-container{
+    text-decoration: none;
+}
