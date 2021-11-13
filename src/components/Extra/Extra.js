@@ -3,21 +3,26 @@ import React from 'react';
 const Extra = () => {
     return (
         <div>
-            <div className="container">
-                <h2>Know best cars!</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <div className="container mt-3">
 
-                <div className="cars-section mb-4">
-                    <div className="d-flex justify-content-sm-evenly justify-content-lg-evenly bg-gray">
+                <div className="text-center">
+                    <h2 className="fs-2 fw-bolder">Know best cars!</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+
+                <div className="cars-section shadow-sm mt-5">
+
+                    <div className="d-flex justify-content-sm-evenly justify-content-lg-evenly bg-gray shadow-sm p-3">
                         <div>
-                            <h2>AUDIE-TRON</h2>
+                            <h3>AUDIE-TRON</h3>
                         </div>
                         <div>
-                            <h5>CHANGES THE WORLD.BUT EVERYDAY LIFE</h5>
+                            <p>CHANGES THE WORLD.BUT EVERYDAY LIFE</p>
                         </div>
                     </div>
 
-                    <div className="row container mb-1">
+                    <div className="row container mb-1 mt-2">
                         <div className="col-lg-6 col-sm-12">
                             <img className="img-fluid" src="https://images.unsplash.com/photo-1629897874832-a2e2f0d3715d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80" alt="" />
                         </div>
@@ -32,42 +37,41 @@ const Extra = () => {
                                     <p>Power saver</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>200Km</h2>
+                                    <p>Slow Start</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>256CC</h2>
+                                    <p>Engine</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>7</h2>
+                                    <p>Seat</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>300WT</h2>
+                                    <p>Headlight</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>260M/h</h2>
+                                    <p>Highest Speed</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="cars-section mt-4">
-                    <div className="d-flex justify-content-sm-evenly justify-content-lg-evenly bg-gray">
+                <div className="cars-section shadow-sm mt-4">
+                    <div className="d-flex justify-content-sm-evenly justify-content-lg-evenly  shadow-sm bg-gray p-3">
                         <div>
-                            <h2>BMW</h2>
+                            <h3>BMW</h3>
                         </div>
                         <div>
-                            <h5>ELECTRIFY INSPIRATION </h5>
-                            
+                            <p>ELECTRIFY INSPIRATION </p>
                         </div>
                     </div>
 
-                    <div className="row container">
+                    <div className="row container mt-2">
                         <div className="col-lg-6 col-sm-12">
                             <img className="img-fluid" src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80" alt="" />
                         </div>
@@ -77,35 +81,35 @@ const Extra = () => {
                                 <p>Electric crossover of the new era</p>
                             </div>
                             <div className="row">
-                                <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
+                            <div className="col-lg-4 col-sm-4">
+                                    <h2>286Km</h2>
                                     <p>Power saver</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>220Km</h2>
+                                    <p>Slow Start</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>296CC</h2>
+                                    <p>Engine</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>9</h2>
+                                    <p>Seat</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>310WT</h2>
+                                    <p>Headlight</p>
                                 </div>
                                 <div className="col-lg-4 col-sm-4">
-                                    <h2>256Km</h2>
-                                    <p>Power saver</p>
+                                    <h2>160M/h</h2>
+                                    <p>Highest Speed</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+
             </div>
         </div>
     );

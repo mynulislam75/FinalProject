@@ -15,7 +15,8 @@ const AllReviews = () => {
         <div className="container">
             <div className="row container p-5 mt-3">
                 <div className="allOrdersText">
-                    <h2>Review of some users!</h2>
+                    <h2 className="fs-2 fw-bolder me-3">Review</h2>
+                   <small>We have some trustfull users!They love us as much as we do!</small>
                 </div>
                 {
                     services.map(singleService => (
