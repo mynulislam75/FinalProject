@@ -6,8 +6,8 @@ const Extra = () => {
             <div className="container mt-3">
 
                 <div className="text-center">
-                    <h2 className="fs-2 fw-bolder">Know best cars!</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <h2 className="fs-2 fw-bolder">EXPLORE BEST CAR'S!</h2>
+                    <small>Here two of the best cars details are shown,hope this will help you</small>
                 </div>
 
 

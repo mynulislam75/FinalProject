@@ -36,8 +36,8 @@ const Footer = () => {
                     </div>
                     <div>
                       <p>
-                        160 Broadway, New York, NY 10038,
-                        <br /> 102 1st Avenue, New York, NY 100
+                        210 California, New York, NY 10038,
+                        <br />102 1st Avenue, New York, NY 100
                       </p>
                     </div>
                   </div>
@@ -59,7 +59,7 @@ const Footer = () => {
               
               <div className="col-md-5">
                 <div className="left-container text-start">
-                  <h1>Biona Sports Club</h1>
+                  <h1>Stive's Cars Knowing Site</h1>
                   <div className="icons-container d-flex text-center ">
                     <div className="icon">
                     <FontAwesomeIcon icon={faInstagramSquare} />
@@ -76,14 +76,12 @@ const Footer = () => {
                   </div>
                   <p className="mt-4 ">
                     <small>
-                      *These statements have not been evaluated by the Food and
-                      Drug Administration. These products are not intended to
-                      diagnose.
+                     Thank you guys for visting our site.
                     </small>
                   </p>
   
                   <p className="mt-5">
-                    <small>Zemez © . All rights reserved.</small>
+                    <small>Steve © . All rights reserved.</small>
                   </p>
                 </div>
               </div>
