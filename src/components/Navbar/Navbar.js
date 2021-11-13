@@ -4,15 +4,14 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import './Navbar.css'
 
-
 const Navbar = () => {
-    const { user, handleSignOut } = useAuth();
-    console.log(user,)
+    const { user} = useAuth();
+    console.log(user)
     return (
         <div className="navbar-container">
             <div className="row container items-container">
                 <div className="col-lg-4 col-sm-12">
-                    <h2>This</h2>
+                    <h5>CARS-INFO'S</h5>
                 </div>
                 <div className="col-lg-8 col-sm-12">
                     <div className="d-flex justify-content-end">
@@ -34,7 +33,7 @@ const Navbar = () => {
                             <div className="ms-3 items">
 
                                 {
-                                    user.email ? <button className="items p-2" onClick={handleSignOut}>Log Out</button>
+                                    user.email ? <NavLink className="items p-2" to="/dashboard/logout">Logout</NavLink>
                                         :
                                         <NavLink className="items p-2" to="/login">Log In</NavLink>
                                 }
@@ -45,6 +44,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            {/* <button className="items p-2" onClick={handleSignOut}>Log Out</button> */}
         </div>
 
 

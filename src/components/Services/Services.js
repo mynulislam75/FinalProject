@@ -17,7 +17,7 @@ const Services = () => {
         <div className="container mt-5">
 
             <div className="text-center">
-                <h2 className="">Visit our services!</h2>
+                <h2 className="fs-2 fw-bolder">Your Trust,Our Service</h2>
                 <small>Drive safe,stay safe</small>
             </div>
 
