@@ -10,7 +10,7 @@ const Myorder = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5000/myOrders/${user.email}`)
+        fetch(`https://morning-plateau-38485.herokuapp.com/myOrders/${user.email}`)
             .then(res => res.json())
             .then(data => setMyOrders(data))
     }, [control])
@@ -19,7 +19,7 @@ const Myorder = () => {
      // HANDLE DELETE
 
      const handleDelete = id => {
-        fetch(`http://localhost:5000/deleteOrder/${id}`, {
+        fetch(`https://morning-plateau-38485.herokuapp.com/deleteOrder/${id}`, {
             method: "DELETE",
         })
             .then(res => res.json())

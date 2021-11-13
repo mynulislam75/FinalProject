@@ -5,14 +5,14 @@ const ManageProducts = () => {
     const [services, setServices] = useState([])
     const [deleteControls, setControls] = useState(false);
     useEffect(() => {
-        fetch("http://localhost:5000/cars")
+        fetch("https://morning-plateau-38485.herokuapp.com/cars")
             .then(res => res.json())
             .then(data => setServices(data))
     }, [deleteControls])
 
 
     const handlePdDelete = id => {
-        fetch(`http://localhost:5000/deletePd/${id}`, {
+        fetch(`https://morning-plateau-38485.herokuapp.com/deletePd/${id}`, {
             method: "DELETE",
         })
             .then(res => res.json())

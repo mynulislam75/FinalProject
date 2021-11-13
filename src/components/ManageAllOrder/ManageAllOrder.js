@@ -8,7 +8,7 @@ const ManageAllOrder = () => {
     const email = sessionStorage.getItem("email");
 
     useEffect(() => {
-        fetch("http://localhost:5000/confirmedOrders")
+        fetch("https://morning-plateau-38485.herokuapp.com/confirmedOrders")
             .then(res => res.json())
             .then(data => setAllOrder(data))
     }, []);

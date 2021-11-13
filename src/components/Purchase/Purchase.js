@@ -11,7 +11,7 @@ const Purchase = () => {
     const [services, setService] = useState();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/singleProduct/${servicesId}`)
+        fetch(`https://morning-plateau-38485.herokuapp.com/singleProduct/${servicesId}`)
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
@@ -23,7 +23,7 @@ const Purchase = () => {
     const onSubmit = data => {
         data.email = user.email;
         // post method
-        fetch('http://localhost:5000/confirmOrder', {
+        fetch('https://morning-plateau-38485.herokuapp.com/confirmOrder', {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
